@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/proyectolodging1/tarbajosprovicionales/LOZANO/db/proyectolodging/lodging2.0.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure pragmas browser query" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3182"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,11:mainmetodo_pago"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="estado_habitacion" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="72"/><column index="2" value="116"/><column index="3" value="89"/><column index="4" value="128"/><column index="5" value="121"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="habitaciones" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="94"/><column index="2" value="132"/><column index="3" value="108"/><column index="4" value="149"/><column index="5" value="255"/><column index="6" value="173"/><column index="7" value="116"/><column index="8" value="127"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="metodo_pago" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="3" mode="0"/></sort><column_widths><column index="1" value="84"/><column index="2" value="126"/><column index="3" value="165"/><column index="4" value="161"/><column index="5" value="217"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="pagos" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="59"/><column index="2" value="118"/><column index="3" value="159"/><column index="4" value="161"/><column index="5" value="79"/><column index="6" value="132"/><column index="7" value="84"/><column index="8" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="reservas" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="85"/><column index="2" value="153"/><column index="3" value="134"/><column index="4" value="92"/><column index="5" value="103"/><column index="6" value="136"/><column index="7" value="124"/><column index="8" value="142"/><column index="9" value="111"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="serviadicional" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="77"/><column index="2" value="83"/><column index="3" value="99"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="servicios" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="96"/><column index="2" value="77"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tipo_habitacion" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="84"/><column index="2" value="94"/><column index="4" value="75"/><column index="5" value="74"/><column index="6" value="104"/><column index="7" value="82"/><column index="8" value="101"/><column index="9" value="64"/><column index="10" value="109"/><column index="11" value="115"/><column index="12" value="147"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tipo_reserva" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="103"/><column index="2" value="168"/><column index="3" value="184"/><column index="4" value="143"/><column index="5" value="154"/><column index="6" value="148"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tipo_usuario" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="89"/><column index="2" value="40"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="usuarios" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="75"/><column index="2" value="113"/><column index="3" value="113"/><column index="4" value="122"/><column index="5" value="118"/><column index="6" value="97"/><column index="7" value="94"/><column index="8" value="127"/><column index="9" value="122"/><column index="10" value="108"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="registros lodging.sql">/*INSERT INTO usuarios (nombre_usuario, apellido_usuario, direccion_usuario, telefono_usuario, email_usuario, pass_usuario, fecharest_usuario, fechareg_usuario) VALUES ('juan','lopez','cr23#', 868768767,'juan@gmail.com','poio.*es','12/02/2023','02/02/2023');
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('pablo','gomez','car66 # c-este',3245675342,'gomez@gmail.com','wppo5.*es','11/03/2023','01/02/2023');
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('angela','gonzalez','car44 # s-este',90878776763,'angela@gmail.com','wmvb.*es','08/03/2023','01/02/2023');
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('luis','hernandez','car12 # l-este',22345674432,'hernandez@gmail.com','yry.*es','23/03/2023','11/03/2023' );
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('tresa','hurtado','car98 # q-este',2156567899,'teresa@gmail.com','wek65.*es','21/03/2023','01/03/2023' );
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('hector','caicedo','car23 # o-este',345234667,'caicedo@gmail.com','lkjd23.*es','02/01/2023','11/12/2022' );
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('daniel','montes','car67 # m-este',4563688,'daniel@gmail.com','ksajfdlk.*es','04/06/2023','02/03/2023');
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('carlos','rincon','car56 # a-este',213322124,'rincon@gmail.com','akls.*es','09/04/2023','11/03/2023');
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('rosa','espitia','car30 # p-este',987879899,'rosa@gmail.com','asda.*es','21/02/2023','22/01/2023');
+INSERT INTO usuarios (nombre_usuario,apellido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario) VALUES ('martha','ramirez','car80 # b-este',2314212131,'ramirez@gmail.com','dsfsada.*es','30/01/2023','01/10/2022');
+*/
+
+
+/*INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (12,'sencilla','doble','cuarto sencillo con camas dobles ', 30000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (1,'suit junior','dobles','cuarto suit con camas dobles ', 91000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (3,'sencilla','tres camas','cuarto sencillo con tres camas', 10000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (22,'sencilla','doble','cuarto sencillo con camas dobles ', 70000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (9,'suit','matrimonial','cuarto vip con camas con clchon de agua', 120000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (6,'contigua','unica','cuarto contuguo con una cama y un cuarto ', 60000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (8,'duplex','5 camas','5 cuartos con camas 5camas ', 80000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (7,'sencilla','2 camas','cuarto sencillo con dos camas ', 20000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (13,'triple','doble','cuarto unico con dos camas ', 40000);
+INSERT INTO habitaciones (numero_habitacion, &quot;tipo_habitacion&quot;, tipocamas_habitacion, descripcion_habitacion,  valor_habitacion) VALUES (17,'sencilla','doble','cuarto sencillo con camas dobles ', 90000);
+*/
+
+
+/*INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('no', 'si', 'no', 'si');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('si', 'si', 'si', 'si');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('si', 'no', 'no', 'no');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('no', 'no', 'no', 'no');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('si', 'no', 'si', 'no');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('si', 'no', 'si', 'no');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('si', 'si', 'no', 'si');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('no', 'no', 'no', 'si');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('no', 'si', 'no', 'si');
+INSERT INTO estado_habitacion (ocupada_esthab, libre_esthab, enlimpieza_esthab, apartada_esthab) VALUES ('si', 'si', 'no', 'si');
+*/
+
+
+/*INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('ingreso', 2, 220000, '12/02/2023', '24/03/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('egreso', 4, 980000, '23/02/2023', '24/04/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('recepcion', 10, 450000, '12/03/2023', '24/08/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('nomina', 7, 340000, '29/02/2023', '26/03/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('nomina', 9, 20000, '11/06/2023', '30/09/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('egreso', 8, 10000, '31/02/2023', '29/03/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('recepcion', 5, 110000, '02/11/2023', '12/12/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('ingreso', 3, 670000, '12/02/2023', '24/03/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('retencion', 1, 15000, '26/02/2023', '12/04/2023');
+INSERT INTO pagos (tipocomprobante_pago, numcomprobante_pago, total_pago, fechaemision_pago, fecha_pago) VALUES('ingreso', 14, 30000, '04/02/2023', '22/03/2023');
+*/
+
+
+/*INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'si', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'no', 'si');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'si', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'si');
+*/
+
+/*INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(1, 1, 'legal', '22/03/2023', '02/01/2023', '30/03/2023', 'negocios');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(4, 4, 'legal', '30/03/2023', '02¿8/01/2023', '29/03/2023', 'turismo');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(3, 3, 'legal', '02/03/2023', '07/02/2023', '18/03/2023', 'bodas');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(2, 6, 'especial', '01/03/2023', '01/02/2023', '30/03/2023', 'negocios');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(7, 8, 'ordinaria', '14/03/2023', '09/02/2023', '30/03/2023', 'negocios');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(9, 1, 'legal', '11/03/2023', '07/02/2023', '24/03/2023', 'estadia');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(10, 2, 'legal', '18/03/2023', '30/02/2023', '28/03/2023', 'turismo');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(6, 7, 'especial', '20/03/2023', '02/02/2023', '19/03/2023', 'turismo');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(5, 9, 'legal', '22/03/2023', '08/06/2023', '31/03/2023', 'bodas');
+INSERT INTO reservas (id_habitacion_reserva, id_usuario_reserva, &quot;tipo_reserva&quot;, fecha_reserva, fechaingre_reserva, fechasali_reserva, alojamiento_reserva) VALUES(4, 4, 'especial', '28/03/2023', '04/09/2023', '02/03/2023', 'turismo');
+*/
+
+
+/*INSERT INTO tipo_usuario (tipo) VALUES (2);
+INSERT INTO tipo_usuario (tipo) VALUES (1);
+INSERT INTO tipo_usuario (tipo) VALUES (4);
+INSERT INTO tipo_usuario (tipo) VALUES (5);
+INSERT INTO tipo_usuario (tipo) VALUES (3);
+INSERT INTO tipo_usuario (tipo) VALUES (8);
+INSERT INTO tipo_usuario (tipo) VALUES (9);
+INSERT INTO tipo_usuario (tipo) VALUES (10);
+INSERT INTO tipo_usuario (tipo) VALUES (7);
+INSERT INTO tipo_usuario (tipo) VALUES (2);
+*/
+
+
+/*INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 8 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 7 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 6);
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 10 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 9 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 3 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 4 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 5 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 1 );
+INSERT INTO tipo_habitacion (tipo_hab, hab_individual, hab_doble, hab_triple, hab_cuadruple, hab_duplex,  hab_site, hab_suitejunior, hab_matrimonial, id_estado_habitacion)  VALUES ('la que requiera', 'si', 'si', 'si', 'si', 'si',  'si', 'si', 'si', 2 );
+*/
+
+
+/*INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'si', 'ninguna' );
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'si', 'ninguna', 'ninguna');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'si', 'si');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'ninguna', 'ninguna');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'si', 'ninguna', 'ninguna');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'si', 'si');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas, denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'ninguna', 'ninguna');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'si', 'ninguna', 'si');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas,  denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'ninguna', 'ninguna');
+INSERT INTO tipo_reserva (garantizadas_tireservas, nogarantizadas_tireservas, denegadas_tireservas, cancelada_tireservas) VALUES ('si', 'ninguna', 'ninguna', 'ninguna');
+*/
+
+
+
+/*INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'si', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'no', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'no', 'si');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('no', 'si', 'no');
+INSERT INTO metodo_pago (efectivo_metpago, tarjetacredito_metpago,  transferenciabancaria_metpago) VALUES ('si', 'no', 'si');
+*/
+
+
+</sql><sql name="SQL 4"></sql><current_tab id="0"/></tab_sql></sqlb_project>
