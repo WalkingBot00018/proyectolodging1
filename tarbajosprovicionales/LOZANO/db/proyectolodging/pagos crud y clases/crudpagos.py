@@ -3,7 +3,7 @@ with sqlite3.connect('C:\\proyectolodging1\\tarbajosprovicionales\\LOZANO\\db\\p
     cursor=con.cursor()
     
     #sentencia="SELECT * FROM pagos"
-    #print(micursor.execute(sentencia).fetchall())
+    #print(cursor.execute(sentencia).fetchall())
 
 def miselect(conexion,tabla,campo,operador,dato):
     micursor=conexion.cursor()

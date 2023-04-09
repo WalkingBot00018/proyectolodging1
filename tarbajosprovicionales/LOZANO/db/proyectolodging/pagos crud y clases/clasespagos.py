@@ -1,4 +1,4 @@
-from tablapagos import *
+from crudpagos import *
 import sqlite3
 
 with sqlite3.connect('C:\\proyectolodging1\\tarbajosprovicionales\\LOZANO\\db\\proyectolodging\\lodging2.0.db') as con:
@@ -33,7 +33,14 @@ with sqlite3.connect('C:\\proyectolodging1\\tarbajosprovicionales\\LOZANO\\db\\p
             #cursor.execute('DELETE FROM pagos WHERE id_pago=?', (self.id_pago,))
             #conexion.commit()
 
-        
+        def buscar_por_fecha(self, conexion, fechaemision_pago, fecha_pago_buscar):
+            cursor = conexion.cursor()
+            cursor.execute('SELECT * FROM pagos WHERE fechaemision_pago BETWEEN ? AND ? OR fecha_pago BETWEEN ? AND ?', 
+                       (fechaemision_pago, fecha_pago_buscar, fechaemision_pago, fecha_pago_buscar))
+            pagos = cursor.fetchall()
+            #return [pago(*p) for p in pagos]
+            for p in pagos:
+                print(p[2])
         
         def listar(conexion):
             cursor = conexion.cursor()
@@ -46,13 +53,13 @@ with sqlite3.connect('C:\\proyectolodging1\\tarbajosprovicionales\\LOZANO\\db\\p
     
     
     mi_pago = pago(3, 2, 'factura', '12345', 10000, '2023-04-07', '2023-04-07', 3)
-
+    mi_pago.buscar_por_fecha(con, '2023-04-01', '2023-04-07')
     #mi_pago.guardar(con)
     #mi_pago.actualizar(con)
     #eliminar(con,'pagos','tipocomprobante_pago','factura',10)
     #modificar(con,'pagos','total_pago',24000,3) 
     #miselect(con,'pagos','fechaemision_pago','=','2023-04-07')
-    pagos = pago.listar(con)
-    print(pagos)
+    #pagos = pago.listar(con)
+    #print(pagos)
 
 
