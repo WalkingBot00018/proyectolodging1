@@ -1,6 +1,6 @@
 from crudEstado_Habitaciones import *
 import sqlite3
-with sqlite3.connect("C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db") as c:
+with sqlite3.connect("C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db") as c:
     cursor=c.cursor()
     class EHabitaciones:
         def __init__(self,id_esthab,ocupada_esthab,libre_esthab,enlimpieza_esthab,apartada_esthab):

@@ -1,6 +1,6 @@
 import sqlite3
 
-with sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db') as proyecto:
+with sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.dbC:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db') as proyecto:
     micursor=proyecto.cursor()
 
     def Insert_Serviadicionales(conexion,tiposervicio,valorservicio):

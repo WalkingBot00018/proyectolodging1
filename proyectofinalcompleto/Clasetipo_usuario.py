@@ -1,6 +1,6 @@
 from crudTipo_usuario import *
 import sqlite3
-with sqlite3.connect("C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db")as c:
+with sqlite3.connect("C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db")as c:
     cursor=c.cursor()
     class Tusuario:
         def __init__(self,tipo_usuario,tipo):

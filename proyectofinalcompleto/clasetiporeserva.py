@@ -1,6 +1,6 @@
 from crudTipo_reserva import *
 import sqlite3
-with sqlite3.connect("C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db")as c:
+with sqlite3.connect("C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db")as c:
     cursor=c.cursor()
     class Reserva:
         def __init__(self,id_reserva,id_habitacion_reserva,id_usuario_reserva,tipo_reserva,fecha_reserva,fechaingre_reserva,fechasali_reserva,alojamiento_reserva,id_tipo_reserva):

@@ -1,5 +1,5 @@
 import sqlite3
-with sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db')as con:
+with sqlite3.connect('C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db')as con:
     cursor=con.cursor()
     
     #sentencia="SELECT * FROM pagos"

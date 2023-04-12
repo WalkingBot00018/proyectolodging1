@@ -1,5 +1,5 @@
 import sqlite3
-with sqlite3.connect("C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db") as c:
+with sqlite3.connect("C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db") as c:
     cursor=c.cursor()
     sentencia="SELECT * from estado_habitacion "
     print(cursor.execute(sentencia).fetchall())

@@ -2,7 +2,7 @@ from clasehabitacion import *
 from serviadicionales import *
 from clasesusuarios import *
 import sqlite3
-conexion= sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db')
+conexion= sqlite3.connect('C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db')
 
 
 
