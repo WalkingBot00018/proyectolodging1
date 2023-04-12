@@ -1,5 +1,5 @@
 import sqlite3
-with sqlite3.connect('C:\\Ducuara1\\db\\proyectolodging\\lodging2_db.db')as con:
+with sqlite3.connect('C:\\Ducuara1\\db\\proyectolodging\\lodging2.0.db')as con:
     micursor=con.cursor()
     sentencia="SELECT * FROM serviadicional"
     print(micursor.execute(sentencia).fetchall())
