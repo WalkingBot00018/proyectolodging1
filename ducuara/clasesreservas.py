@@ -2,11 +2,10 @@ from reserva import *
 import sqlite3
 from datetime import datetime
 
-<<<<<<< HEAD
-with sqlite3.connect('C:\\Ducuara1\\db\\proyectolodging\\lodging2_db.db')as con:
-=======
-with sqlite3.connect('C:\\Ducuara1\\db\\proyectolodging\\lodging2.0.db')as con:
->>>>>>> ramaducuara
+
+with sqlite3.connect('C:\\proyecto4\\proyectolodging1\\ducuara\\lodging2.0.db')as con:
+
+
     cursor=con.cursor()
 
     class reservas:

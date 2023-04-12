@@ -2,7 +2,7 @@ from servicios import *
 import sqlite3
 
 
-with sqlite3.connect('C:\\Ducuara1\\db\\proyectolodging\\lodging2_db.db')as con:
+with sqlite3.connect('C:\\proyecto4\\proyectolodging1\\ducuara\\lodging2.0.db')as con:
 
 
 
