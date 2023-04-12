@@ -1,7 +1,11 @@
 from servicios import *
 import sqlite3
 
+
 with sqlite3.connect('C:\\Ducuara1\\db\\proyectolodging\\lodging2_db.db')as con:
+
+
+
     micursor=con.cursor()
 
     class servicio:
