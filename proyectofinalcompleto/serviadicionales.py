@@ -1,6 +1,6 @@
 import sqlite3
 
-with sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.dbC:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db') as proyecto:
+with sqlite3.connect('C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db') as proyecto:
     micursor=proyecto.cursor()
 
     def Insert_Serviadicionales(conexion,tiposervicio,valorservicio):
@@ -16,12 +16,11 @@ with sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lo
         micursor=conexion.cursor()
         sentencia=f'SELECT * FROM serviadicional'
         return (micursor.execute(sentencia).fetchall())
-    
     print(select_Serviadicionales(proyecto))
     
-    def select_serviadicional_condicion(conexion,id):
+    def select_serviadicional_condicion(conexion,id_servicio):
         micursor=conexion.cursor()
-        sentencia=f'SELECT * FROM serviadicional WHERE id_servicio="{id}"'
+        sentencia=f'SELECT * FROM serviadicional WHERE id_servicio="{id_servicio}"'
         return (micursor.execute(sentencia).fetchall())
     
     print(select_serviadicional_condicion(proyecto,1))
@@ -35,9 +34,9 @@ with sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lo
     
     modificacion_serviadicional(proyecto,'TipoServicio','servicio adicional',1)
     
-    def eliminacion_serviadicional(conexion,id):
+    def eliminacion_serviadicional(conexion,id_servicio):
         micursor=conexion.cursor()
-        sentecia=f'DELETE FROM serviadicional WHERE id_servicio="{id}"'
+        sentecia=f'DELETE FROM serviadicional WHERE id_servicio="{id_servicio}"'
         micursor.execute(sentecia)
         proyecto.commit()
         print('Eliminación exitosa.')

@@ -5,7 +5,7 @@ with sqlite3.connect('C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lo
     print(micursor.execute(sentencia).fetchall())
 
 
-def select_Usuario(con):
+def seleccionar_usuario(con):
     micursor=con.cursor()
     select=f'SELECT * FROM usuarios'
     print(' resultado: \n')
@@ -13,13 +13,13 @@ def select_Usuario(con):
 #Ejemplo
 #selectAll_tbUsuario(database)
     
-def modificar(connetc,tabla,campo,dato,id_usuario):
-    micursor=connetc.cursor()
+def modificar(connectc,tabla,campo,dato,id_usuario):
+    micursor=connectc.cursor()
     sentencia=f"UPDATE {tabla} SET {campo}= '{dato}' WHERE id_usuario ='{id_usuario}'"
     micursor.execute(sentencia)
     con.commit()
     print('Modificacion Exitosa')
-'''modificar(con,'usuarios','nombre_usuario','saray',10) '''
+#modificar(con,'usuarios','nombre_usuario','saray',2) 
 
 def eliminar_usuario(connetc,tabla,campo,dato,id_usuario):
     micursor=connetc.cursor()
@@ -28,7 +28,7 @@ def eliminar_usuario(connetc,tabla,campo,dato,id_usuario):
     con.commit()
     print('Eliminacion Exitosa')
 '''eliminar(con,'usuarios','nombre_usuario','saray',10) '''
-def insertar_USUARIO(id_usuario,nombre_usuario,apelido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario,id_tipo_usuario):
+def insertar_USUARIO(con,id_usuario,nombre_usuario,apelido_usuario,direccion_usuario,telefono_usuario,email_usuario,pass_usuario,fecharest_usuario,fechareg_usuario,id_tipo_usuario):
     micursor=con.cursor()
     sentencia=f"INSERT INTO usuarios  VALUES ({id_usuario},'{nombre_usuario}','{apelido_usuario}','{direccion_usuario}','{telefono_usuario}','{email_usuario}','{pass_usuario}','{fecharest_usuario}','{fechareg_usuario}',{id_tipo_usuario})"
     micursor.execute(sentencia)

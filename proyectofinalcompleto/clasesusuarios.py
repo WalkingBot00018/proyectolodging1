@@ -42,7 +42,7 @@ with sqlite3.connect('C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lo
             return[usuario(*p) for p in usuarios]
         
         def conusuario(conexion,condition,id_usuario):
-            conexion = sqlite3.connect('C:\\proyecto3\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db')
+            conexion = sqlite3.connect('C:\\proyecto4\\proyectolodging1\\proyectofinalcompleto\\lodging2.0.db')
             micursor = conexion.cursor()
             sentencia=f'SELECT * FROM usuarios WHERE id_usuarios=?', (id_usuario)
             print(' resultado: \n')
